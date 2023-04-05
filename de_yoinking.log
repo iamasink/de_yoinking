@@ -17581,3 +17581,295 @@ Total triangle count: 6496
 Writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp', but we don't own that location. Allowing...
 12 seconds elapsed
+
+
+
+materialPath: E:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.vmf
+Map revision 408
+Can't find surfaceprop stone for material DE_CBBLE/COBBLEROAD01, using default
+Can't find surfaceprop stone for material DE_CBBLE/STONE_ALT/BRICK_C_DAMAGED, using default
+Patching WVT material: maps/de_yoinking/brick/hr_brick/venice/brick_ground_a_blend_wvt_patch
+Patching WVT material: maps/de_yoinking/hr_massive/concrete_floor_1_blend_2_wvt_patch
+Patching WVT material: maps/de_yoinking/ground/hr_g/hr_gravel_dirt_001_blend_cheap_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 38 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+done (0)
+writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 4 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (134268 bytes)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1057 texinfos to 418
+Reduced 162 texdatas to 99 (6930 bytes to 4246)
+Writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+16 threads
+reading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+reading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.prt
+ 651 portalclusters
+2028 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 16975 visible clusters (0.00%)
+Total clusters visible: 363604
+Average clusters visible: 558
+Building PAS...
+Average clusters audible: 651
+visdatasize:112405  compressed from 114576
+writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+2285 faces
+1838292 square feet [264714112.00 square inches]
+54 Displacements
+20350 Square Feet [2930519.00 Square Inches]
+2285 patches before subdivision
+31995 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1635184, max 595
+transfer lists:  12.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(241268, 179643, 137939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(54454, 38108, 24818)
+Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                359/8192         4308/98304    ( 4.4%) 
+brushsides            2420/81920       19360/655360   ( 3.0%) 
+planes                1572/65536       31440/1310720  ( 2.4%) 
+vertexes              3607/65536       43284/786432   ( 5.5%) 
+nodes                 1510/65536       48320/2097152  ( 2.3%) 
+texinfos               418/12288       30096/884736   ( 3.4%) 
+texdata                 99/4096         3168/131072   ( 2.4%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            6646/0          132920/0        ( 0.0%) 
+disp_tris            11328/0           22656/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       62228/0           62228/0        ( 0.0%) 
+faces                 2285/65536      127960/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1164/65536       65184/3670016  ( 1.8%) 
+facebrushes            336/0             672/0        ( 0.0%) 
+facebrushlists        2285/0            9140/0        ( 0.0%) 
+leaves                1519/65536       48608/2097152  ( 2.3%) 
+leaffaces             2563/65536        5126/131072   ( 3.9%) 
+leafbrushes           1249/65536        2498/131072   ( 1.9%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            15446/512000      61784/2048000  ( 3.0%) 
+edges                 8975/256000      35900/1024000  ( 3.5%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            253/32768        2530/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3801/65536        7602/131072   ( 5.8%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2308536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      112405/16777216 ( 0.7%) 
+entdata               [variable]       19956/393216   ( 5.1%) 
+LDR ambient table     1519/65536        6076/262144   ( 2.3%) 
+HDR ambient table     1519/65536        6076/262144   ( 2.3%) 
+LDR leaf ambient      6956/65536      194768/1835008  (10.6%) 
+HDR leaf ambient      1519/65536       42532/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/27084    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/2256     ( 0.0%) 
+pakfile               [variable]     3299148/0        ( 0.0%) 
+physics               [variable]      134268/4194304  ( 3.2%) 
+physics terrain       [variable]        6375/1048576  ( 0.6%) 
+
+Level flags = 7d
+
+Total triangle count: 6213
+Writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp', but we don't own that location. Allowing...
+11 seconds elapsed
+
+
+
+materialPath: E:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.vmf
+Map revision 411
+Can't find surfaceprop stone for material DE_CBBLE/COBBLEROAD01, using default
+Can't find surfaceprop stone for material DE_CBBLE/STONE_ALT/BRICK_C_DAMAGED, using default
+Patching WVT material: maps/de_yoinking/brick/hr_brick/venice/brick_ground_a_blend_wvt_patch
+Patching WVT material: maps/de_yoinking/hr_massive/concrete_floor_1_blend_2_wvt_patch
+Patching WVT material: maps/de_yoinking/ground/hr_g/hr_gravel_dirt_001_blend_cheap_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 38 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Warning: overflowed 4 displacement corner-neighbor lists.Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (135636 bytes)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1055 texinfos to 411
+Reduced 162 texdatas to 99 (6930 bytes to 4246)
+Writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+reading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.prt
+ 651 portalclusters
+2028 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 16975 visible clusters (0.00%)
+Total clusters visible: 363604
+Average clusters visible: 558
+Building PAS...
+Average clusters audible: 651
+visdatasize:112405  compressed from 114576
+writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+2274 faces
+1837393 square feet [264584704.00 square inches]
+54 Displacements
+20678 Square Feet [2977751.00 Square Inches]
+2274 patches before subdivision
+31804 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1628771, max 594
+transfer lists:  12.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(240897, 179269, 137587)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(54405, 38060, 24778)
+Build Patch/Sample Hash Table(s).....Done<0.0048 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                361/8192         4332/98304    ( 4.4%) 
+brushsides            2434/81920       19472/655360   ( 3.0%) 
+planes                1584/65536       31680/1310720  ( 2.4%) 
+vertexes              3608/65536       43296/786432   ( 5.5%) 
+nodes                 1510/65536       48320/2097152  ( 2.3%) 
+texinfos               411/12288       29592/884736   ( 3.3%) 
+texdata                 99/4096         3168/131072   ( 2.4%) 
+dispinfos               54/0            9504/0        ( 0.0%) 
+disp_verts            6646/0          132920/0        ( 0.0%) 
+disp_tris            11328/0           22656/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       63508/0           63508/0        ( 0.0%) 
+faces                 2274/65536      127344/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1159/65536       64904/3670016  ( 1.8%) 
+facebrushes            336/0             672/0        ( 0.0%) 
+facebrushlists        2274/0            9096/0        ( 0.0%) 
+leaves                1519/65536       48608/2097152  ( 2.3%) 
+leaffaces             2549/65536        5098/131072   ( 3.9%) 
+leafbrushes           1255/65536        2510/131072   ( 1.9%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            15370/512000      61480/2048000  ( 3.0%) 
+edges                 8935/256000      35740/1024000  ( 3.5%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            255/32768        2550/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3828/65536        7656/131072   ( 5.8%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2295236/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      112405/16777216 ( 0.7%) 
+entdata               [variable]       19956/393216   ( 5.1%) 
+LDR ambient table     1519/65536        6076/262144   ( 2.3%) 
+HDR ambient table     1519/65536        6076/262144   ( 2.3%) 
+LDR leaf ambient      6951/65536      194628/1835008  (10.6%) 
+HDR leaf ambient      1519/65536       42532/1835008  ( 2.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/16692    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/2256     ( 0.0%) 
+pakfile               [variable]     3299148/0        ( 0.0%) 
+physics               [variable]      135636/4194304  ( 3.2%) 
+physics terrain       [variable]        6375/1048576  ( 0.6%) 
+
+Level flags = 7d
+
+Total triangle count: 6179
+Writing e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\de_yoinking\de_yoinking.bsp', but we don't own that location. Allowing...
+12 seconds elapsed
