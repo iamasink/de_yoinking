@@ -5,4 +5,4 @@ This map was made using [Hammer++](https://ficool2.github.io/HammerPlusPlus-Webs
 You will need these if you wish to edit it else the map may have issues.
 
 The .BSP (playable map) is available on the Steam workshop:
-https://steamcommunity.com/sharedfiles/filedetails/?id=1760139239
+https://steamcommunity.com/sharedfiles/filedetails/?id=2515182620
